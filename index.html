@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lista</title>
+  </head>
+  <body>
+    
+    <form>
+      <input type="text" placeholder="Pesquisar por nome" id="pesquisa-nome">
+      <input type="text" placeholder="Pesquisar por descrição" id="pesquisa-descricao">
+      <button type="button" id="btn-pesquisa">Buscar</button>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Nome" />
+      <label for="descricao">Descrição</label>
+      <input
+        type="text"
+        id="descricao"
+        name="descricao"
+        placeholder="Descrição"
+      />
+      <label for="valor">Valor</label>
+      <input type="number" id="valor" name="valor" placeholder="Valor" />
+      <button type="button" id="btn-incluir">Incluir produto</button>
+      <button type="button" id="btn-editar" style="display: none;">Editar produto</button>
+      <button type="button" id="btn-listar">Listar produtos</button>
+    </form>
+    <div id="mens">
+      <span id="sucesso"></span>
+      <span id="fracasso"></span>
+    </div>
+
+    <div id="container"></div>
+
+    <div id="result" style="display: none;"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

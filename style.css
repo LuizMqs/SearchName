@@ -1,0 +1,86 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    border-color: rgb(170, 170, 170);
+    transition: 0.1s;
+}
+
+#mens {
+    margin-bottom: 30px;
+}
+
+#sucesso {
+    color: green;
+}
+
+#fracasso {
+    color: red;
+}
+
+table, th, td {
+    border: 2px solid rgb(185, 185, 185);
+    width: 400px;
+}
+
+td {
+    text-align: center;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+img {
+    height: 30px;
+}
+
+#result {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#product-name, #product-id, #product-value {
+    cursor: pointer;
+}
